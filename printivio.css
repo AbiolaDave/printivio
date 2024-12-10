@@ -1,0 +1,559 @@
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border: px solid gray;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.left, .right{
+    display: flex;
+    align-items: center;
+}
+.right{
+    order: 1;
+    padding-right: 100px;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #4b6382;
+    text-decoration: none;
+}
+.nav1{
+    position: relative;
+   text-align: left;
+   padding-top: 1px;
+   padding-left: 60px;
+   font-size: 10px;
+   justify-content: left;
+   /* word-spacing: 20px; */
+   display: flex;
+   list-style: none;
+   font-family: sans-serif;
+   font-weight: 500;
+    color: #4b6382;
+}
+.nav1 li{
+   padding: 5px 10px;
+    color: #4b6382;;
+    text-decoration: none;
+} 
+.nav2{
+    position: relative;
+    display: flex;
+    font-size: 10px;
+    text-align: right;
+    justify-content: right;
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #4b6382;
+}
+.nav2 li{
+    padding: 5px 10px;
+    color: #4b6382;;
+    text-decoration: none;
+}
+.no{
+    color: blue;
+}
+.nig{
+    border: 1px solid #cbcac8;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 5px 7px;
+    cursor: pointer;
+    line-height: 0;
+    display: flex;
+}
+.niger{
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.pink{
+    width: 100%;
+    height: 300px;
+    background-color: #ece8d9;
+    justify-content: space-between;
+    background-image: url(./multimedia/Screenshot\ 2023-09-01\ at\ 01-22-31\ Design\ and\ Print\ Business\ Cards\ Flyers\ Online\ in\ Nigeria.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 250px;
+    background-position-y: 100px;
+}
+.head{
+    position: relative;
+    display: flex;
+}
+.printivio{
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.products{
+    display: flex;
+    position: relative;
+    list-style: none;
+    justify-content: right;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    gap: 1rem;
+    color: #4b6382;
+    justify-items: right;
+    padding-left: 180px;
+
+}
+.all{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-right: 10px;
+    padding-top: 20px;
+    justify-content: right;
+
+}
+@font-face{
+    font-family: dmd;
+    src: url(./multimedia/DM\ Serif\ Display\ Regular.ttf);
+}
+.print{
+    display: flex;
+    position: relative;
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: dmd;
+    font-weight: 600;
+    color: #031c3c;
+    padding-left: 80px;
+}
+.ship{
+    font-family: sans-serif;
+    color: #4b6382;
+    padding-left: 80px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.what{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.inp{
+    width: 400px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.left{
+    padding-left: 80px;
+    padding-top: 5px;
+}
+.mar{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: pink;
+    overflow: hidden;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: right;
+}
+
+.shop{
+    font-weight: normal;
+    text-decoration: underline;
+
+}
+.texx{
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    white-space: nowrap;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes anime{
+    20% {transform: translateX(-400%);}
+    50% {transform: translateX(-400%);}
+    55% {transform: translateX(-800%);}
+    55.1% {transform: translateX(0);}
+    
+}
+.cor{
+    animation-name: anime;
+    animation-delay: 0.5s;
+    cursor: pointer;
+}
+@keyframes animes{
+    25% {transform: translateX(-600%);}
+    50% {transform: translateX(-600%);}
+    60% {transform: translateX(-1500%);}
+    60.1%{transform: translateX(0);}
+}
+.tote{
+    animation-name: animes;
+    animation-delay: 3s;
+    cursor: pointer;
+}
+.box-parent{
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns:repeat(4, 200px);
+    grid-template-rows: repeat(3, 300px ) ;
+    border: ;
+}
+.box{
+    border: 1px solid lightgrey;
+    box-shadow: 1px 1px 1px lightgray;
+    overflow: hidden;
+}
+.aa{
+    /* background-image: url(./multimedia/1440201227_two-sided-business-cards-by-printivo.png); */
+    /* background-position: center; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.img-a{
+    display: flex;
+    position: relative;
+    /* background-size: contain; */
+    /* background-position: center; */
+    width: 200px;
+    height: 170px;
+}
+.img-a:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.img-b:hover{
+    transform: scale(1.2);
+}
+.img-c:hover{
+    transform: scale(1.2);
+}
+.img-d:hover{
+    transform: scale(1.2);
+}
+.img-e:hover{
+    transform: scale(1.2);
+}
+.img-f:hover{
+    transform: scale(1.2);
+}
+.img-g:hover{
+    transform: scale(1.2);
+}
+.img-h:hover{
+    transform: scale(1.2);
+}
+.img-i:hover{
+    transform: scale(1.2);
+}
+.two{
+    color: #031c3c;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.at{
+    color: #4b6382;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.naira{
+    text-decoration: line-through;
+}
+.per{
+    color: #031c3c;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.button{
+    color: white;
+   background-color:  rgb(215, 127, 129);
+   border: none;
+    border-radius: 3px;
+    height: 30px;
+    text-align: center;
+    font-size: 10px;
+    font-family: sans-serif;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.pop{
+    display: flex;
+    padding-top: 70px;
+    font-family: dmd;
+    font-size: 20px;
+    padding-left: 40px;
+    position: relative;
+    color: #031c3c;
+}
+.see{
+    color: rgb(215, 127, 129);
+    font-size: 12px;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    position: relative;
+    padding-left: 550px;
+    
+}
+.box2{
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns:repeat(4, 200px);
+    grid-template-rows: repeat(1, 300px ) ;
+    border: 
+}
+.shops{
+    font-family: dmd;
+    text-decoration: none;
+    font-size: 20px;
+    color: #031c3c;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.brands{
+    display: flex;
+    color: #4b6382;
+    text-align: left;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.foot{
+    width: 800px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.blue{
+    width: 100%;
+    /* height: 200px; */
+    background-color: #edf6fd;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: #031c3c;
+    font-family: dmd;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.foot-box{
+    width: 90%;
+    margin-inline: auto;
+    display: grid;
+    padding: 1rem;
+    gap: 2rem;
+    border: 1px;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat(1, 150px );   
+}
+.who{
+    border: 1px solid lightgray;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 1px 1px 1px gray;
+}
+.aaa{
+    font-size: 10px;
+    /* text-align: center; */
+}
+.word{
+    display: flex;
+    gap: 20px;
+    line-height: 15px;
+    word-spacing: 6px;
+    padding-top: 10px;
+    font-weight: 500;
+    /* font-family: sans-serif; */
+}
+.clo{
+    display: flex;
+}
+.clock{
+    width: 40px;
+    padding-left: 20px;
+    display: flex;
+    margin-bottom: 300px;
+}
+.fast{
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    display:;
+    padding-top: 10px;
+}
+.your{
+    display: flex;
+    font-size: 10px;
+    font-family: sans-serif;
+    padding-top: 8px;
+    color: #4b6382;
+    word-spacing: 7px;
+    line-height: 15px;
+}
+.bord{
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns:repeat(3, 250px);
+    grid-template-rows: repeat(1, 100px ) ;
+    border: 
+}
+.shield{
+    width: 40px;
+    padding-left: 40px;
+    display: flex;
+    margin-bottom: 50px;
+}
+.semi{
+    width: 100%;
+    height: 200px;
+    background-color: #f7f6f4;
+}
+.techcrunch{
+    width: 120px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.read{
+    font-size: 11px;
+    font-family: sans-serif;
+    text-decoration: underline;
+    padding-left: 40px;
+    color: #4b6382;
+
+}
+.forbes{
+    width: 80px;
+    padding-left: 40px;
+}
+.techpoint{
+    width: 80px;
+    padding-left: 70px;
+}
+.techcabal{
+    width: 100px;
+    padding-left: 70px;
+}
+.cnn{
+    width: 50px;
+    padding-left: 70px;
+}
+.read2{
+    font-size: 11px;
+    font-family: sans-serif;
+    text-decoration: underline;
+    padding-left: 71px;
+    color: #4b6382;
+
+}
+.read3{
+    font-size: 11px;
+    font-family: sans-serif;
+    text-decoration: underline;
+    padding-left: 72px;
+    color: #4b6382;
+
+}
+.read4{
+    font-size: 11px;
+    font-family: sans-serif;
+    text-decoration: underline;
+    padding-left: 71px;
+    color: #4b6382;
+
+}
+.read5{
+    font-size: 11px;
+    font-family: sans-serif;
+    text-decoration: underline;
+    padding-left: 76px;
+    color: #4b6382;
+}
+.footer{
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns:repeat(4, 200px);
+    grid-template-rows: repeat(1, 250px ) ;
+    background-color: #384a62;
+}
+.footer-1{
+    color: white;
+    font-family: sans-serif;
+    padding-left: 40px;
+    font-size: 13px;
+    padding-top: 20px;
+}
+.footer-1 li{
+    list-style: none;
+    line-height: 20px;
+}
+.footer-2{
+    display: flex;
+    position: relative;
+    color: white;
+    list-style: none;
+    font-size: 12px;
+}
+.footer-2 li{
+    list-style: none;
+    line-height: 20px;
+}
+.facebook{
+    width: 10px;
+}
+.twitter{
+    width: 18px;
+    padding-left: 15px;
+}
+.in{
+    width: 18px;
+    padding-left: 15px;
+}
+.instagram{
+    width: 18px;
+    padding-left: 15px;
+}
+.footer-3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.footer-3 li{
+    list-style: none;
+    line-height: 30px;
+}
+.payment{
+    width: 120px;
+}
+.dhl{
+    width: 120px;
+}
+.copyright{
+    width: 100%;
+    height: 50px;
+    background-color: #cbcac8;
+    color: #384a62;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 25px;
+}
